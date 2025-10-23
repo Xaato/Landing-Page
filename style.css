@@ -1,7 +1,8 @@
 body {
-margin: 0;
+    margin: 0;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -17,10 +18,51 @@ ul {
     gap: 24px;
 
 }
+
 a {
     text-decoration: none;
-        color: #E5e7eb;
+    color: #E5e7eb;
 }
+
 li {
     font-size: 18px;
+}
+
+.awesome {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 50px 32px 50px 32px;
+}
+
+.text {
+    height: 200px;
+    width: 320px;
+}
+
+.secondHeader {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+button {
+    background-color: blue;
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
 }
