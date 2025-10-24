@@ -83,4 +83,18 @@ button {
 .image{
     display: flex;
     justify-content: space-between;
+
+}
+.pic img{
+    width: 150px;
+    height: 100px;
+    border: solid;
+    border-radius: 6px;
+    border-color: blue;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+.pic {
+    width: 150px;
+    text-align: center;
 }
